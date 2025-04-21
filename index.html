@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Склад оптовой торговой организации</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero-header">
+    <div class="container">
+      <h1>Склад оптовой торговой организации</h1>
+      <p>Управляйте товарами, поставками и аналитикой</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>О складе</h2>
+      <p>
+        Наша система предназначена для оптимизации работы склада оптовой торговли.
+        Сотрудники, менеджеры и администраторы получают единый доступ к актуальной информации.
+      </p>
+    </section>
+
+    <section class="cards-grid">
+      <a href="inventory.html" class="card-link">
+        <div class="card hoverable">
+          <h3>Учёт товаров</h3>
+          <p>Просматривайте, добавляйте и редактируйте информацию о товарных единицах.</p>
+        </div>
+      </a>
+      <a href="deliveries.html" class="card-link">
+        <div class="card hoverable">
+          <h3>Поставки</h3>
+          <p>Отслеживайте ожидаемые поставки и управляйте их приёмом и историей.</p>
+        </div>
+      </a>
+      <a href="analytics.html" class="card-link">
+        <div class="card hoverable">
+          <h3>Аналитика</h3>
+          <p>Получайте отчёты и статистику по остаткам и популярности товаров.</p>
+        </div>
+      </a>
+      <a href="admin.html" class="card-link">
+        <div class="card hoverable">
+          <h3>Администратор</h3>
+          <p>Управляйте пользователями, контентом и отслеживайте активность.</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="news-section">
+      <h2>Новости</h2>
+      <ul class="news-list">
+        <li>🔹 [16.04.2025] Обновлена аналитика остатков.</li>
+        <li>🔹 [18.03.2025] Добавлена новая категория товаров.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Контакты склада</h3>
+        <p>г. Челябинск, ул. Ворошилова, д. 777</p>
+        <p>Тел.: +7 (999) 777-55-66</p>
+        <p>Email: skladsystem@mail.ru</p>
+      </div>
+
+      <div>
+        <h3>Обратная связь</h3>
+        <form id="feedback-form">
+          <input type="text" name="name" placeholder="Ваше ФИО" required />
+          <input type="text" name="subject" placeholder="Почта" required />
+          <textarea name="message" placeholder="Сообщение" rows="4" required></textarea>
+          <button type="submit" class="btn primary">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Все права защищены.</p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

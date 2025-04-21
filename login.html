@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Авторизация</title>
+  <link rel="stylesheet" href="css/inventory.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Склад оптовой торговой организации</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="form-card" style="max-width: 500px; margin: 3rem auto;">
+      <h2 style="text-align: center; margin-bottom: 1.5rem;">Вход в систему</h2>
+      <form id="loginForm" class="pretty-form">
+        <div class="form-group">
+          <label for="login-username">Имя пользователя</label>
+          <div class="input-icon">
+            <input type="text" id="login-username" placeholder="Введите имя" required />
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="login-password">Пароль</label>
+          <div class="input-icon">
+            <input type="password" id="login-password" placeholder="Введите пароль" required />
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="login-role">Роль</label>
+          <div class="input-icon">
+            <select id="login-role" required>
+              <option value="Работник склада">Работник склада</option>
+              <option value="Менеджер">Менеджер</option>
+              <option value="Администратор">Администратор</option>
+            </select>
+          </div>
+        </div>
+      
+        <div style="text-align: center;">
+          <button type="submit" class="btn big">Войти</button>
+        </div>
+      </form>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/login.js"></script>
+  
+</body>
+</html>
